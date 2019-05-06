@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="280dp"
+    android:minHeight="320dp"
+    android:background="#ffff"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Thông Báo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/sao"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/sao"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/sao"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/sao"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:src="@drawable/sao"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:background="#ffff"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãy giúp chúng tôi đánh giá sản phẩm trên App Store để sản phẩm ngày một hoàn thiện hơn"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+    >
+        <Button
+            android:id="@+id/bntCanner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog"
+            android:text="Canner"
+          android:layout_margin="5dp"
+            />
+        <Button
+            android:padding="15dp"
+            android:id="@+id/bntOK"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialogzzzz"
+            android:text="okie"
+            android:layout_margin="5dp"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
